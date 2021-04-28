@@ -15,9 +15,11 @@ class Product_typeAdmin(admin.ModelAdmin):
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = ['name','category']
+
     inlines = [
         Product_imageAdmin
     ]
+
 
 admin.site.register(Category,CatalogAdmin)
 admin.site.register(Product,ProductAdmin)

@@ -1,4 +1,8 @@
 from django.shortcuts import render
+from .models import Product_image
 
 def catalog(request):
-    return render(request, 'index.html',{})
+    context={
+
+    }
+    return render(request, 'index.html',context)
