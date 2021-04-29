@@ -1,1 +1,2 @@
 Loyiha Boshlandi
+Va atelegram botni boshlamoqchimiz
