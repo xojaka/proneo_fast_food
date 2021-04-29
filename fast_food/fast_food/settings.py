@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'catalog',
     'user',
+    'tg',
 ]
 
 MIDDLEWARE = [
@@ -143,3 +144,4 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+BOT_TOKEN = os.getenv('TOKEN', '1111')
